@@ -90,7 +90,7 @@ class Test {
         System.out.println("Average BufferedReader execution time for " + iterations + " executions: " + total_duration / iterations + " ms.");
         System.out.println("Total BufferedReader execution time for " + iterations + " executions: " + total_duration + " ms.");
 
-        /*total_duration = 0;
+        total_duration = 0;
         for(int i = iterations; i > 0; i--) {
             long duration = time_this(dr::scanner_buffered_reader);
             total_duration += duration;
@@ -104,7 +104,7 @@ class Test {
             total_duration += duration;
         }
         System.out.println("Average Scanner(File) execution time for " + iterations + " executions: " + total_duration / iterations + " ms.");
-        System.out.println("Total Scanner(File) execution time for " + iterations + " executions: " + total_duration + " ms.");*/
+        System.out.println("Total Scanner(File) execution time for " + iterations + " executions: " + total_duration + " ms.");
 
         total_duration = 0;
         for(int i = iterations; i > 0; i--) {
